@@ -1,0 +1,43 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+    color: #0ff; /* Neon cyan text */
+    background-color: #000; /* Black background for high contrast */
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #000; /* Ensuring the body has a black background */
+    color: #0ff; /* Neon text */
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 2px #0ff, /* Neon cyan glow */
+    0 0 10px #0ff, /* Larger neon cyan glow */
+    0 0 20px #0ff; 
+    outline: none; 
+}
+
+.btn, .btn-link.nav-link, .form-control, .form-check-input {
+    background-color: #222; 
+    border-color: #333; 
+    color: #0ff; /* Neon text color */
+}
+
+    .btn:hover, .btn:focus, .btn:active, .btn-link.nav-link:hover {
+        background-color: #333; /* Lighter on hover for buttons */
+        color: #fff; /* White text on hover for better visibility */
+    }
+
+.form-control, .form-check-input {
+    border: 1px solid #333; /* Custom border color for form inputs */
+}
+
+/* Add custom neon effects to other elements as needed */
