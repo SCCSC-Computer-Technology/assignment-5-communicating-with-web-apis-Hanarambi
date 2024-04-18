@@ -1,0 +1,4 @@
+-FLexible Configuration
+-Clean Code Structure
+-Knowledge of controllers and HTTP CLient integration
+-Very handsome student
